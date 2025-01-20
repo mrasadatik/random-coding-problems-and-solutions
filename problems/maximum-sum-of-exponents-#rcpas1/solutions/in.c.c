@@ -39,7 +39,7 @@
  * Problem Code:
  * - #rcpas1
  *
- * @link https://www.github.com/mrasadatik/random-coding-problems-solutions/blob/main/problems/maximum-sum-of-exponents-#rcpas1/solutions/in.c.c
+ * @link https://github.com/mrasadatik/random-coding-problems-and-solutions/blob/main/problems/maximum-sum-of-exponents-%23rcpas1/solutions/in.c.c
  *
  * @note This program assumes that the user inputs valid integer arrays and does not perform
  *       input validation for array size or values.
