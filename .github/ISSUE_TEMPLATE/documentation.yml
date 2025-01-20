@@ -13,19 +13,19 @@ body:
         ## Documentation Improvement
         Help me improve the documentation of this repository by submitting improvements.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Which part of the documentation needs improvement?
       description: Specify the file or section that needs attention.
       placeholder: e.g., README, solution explanation for Problem X
 
-  - type: input
+  - type: textarea
     attributes:
       label: What changes do you propose?
       description: Describe the proposed changes or improvements.
       placeholder: e.g., Add more detailed explanations for edge cases.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Additional context
       description: Any additional context or details you think will be helpful.
