@@ -21,6 +21,12 @@ body:
 
   - type: textarea
     attributes:
+      label: Difficulty Level
+      description: Specify the difficulty level of the problem (e.g., easy, medium, hard).
+      placeholder: e.g., "medium"
+
+  - type: textarea
+    attributes:
       label: Problem Description
       description: Provide a detailed description of the problem. Include input/output format and examples.
       placeholder: e.g., "Given an array of integers, find the maximum sum of any contiguous subarray."
@@ -45,15 +51,15 @@ body:
 
   - type: textarea
     attributes:
-      label: Solution (optional)
-      description: If you have a solution, feel free to include it.
-      placeholder: Optional
+      label: Explanation
+      description: Provide a detailed explanation of the problem and its solution.
+      placeholder: e.g., "The maximum sum of any contiguous subarray is 6, which can be achieved by summing the subarray [1, 2, 3]."
 
   - type: textarea
     attributes:
-      label: Difficulty Level
-      description: Specify the difficulty level of the problem (e.g., easy, medium, hard).
-      placeholder: e.g., "medium"
+      label: Solution (optional)
+      description: If you have a solution, feel free to include it.
+      placeholder: Optional
 
   - type: textarea
     attributes:
