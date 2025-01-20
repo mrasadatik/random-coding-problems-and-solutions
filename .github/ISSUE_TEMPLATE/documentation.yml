@@ -1,0 +1,35 @@
+name: "Documentation Improvement"
+description: "Suggest an improvement or correction to the repository's documentation."
+title: "doc: <brief description>"
+labels: ["documentation"]
+
+assignees:
+  - "mrasadatik"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Documentation Improvement
+        Help me improve the documentation of this repository by submitting improvements.
+
+  - type: input
+    attributes:
+      label: Which part of the documentation needs improvement?
+      description: Specify the file or section that needs attention.
+      placeholder: e.g., README, solution explanation for Problem X
+      required: true
+
+  - type: input
+    attributes:
+      label: What changes do you propose?
+      description: Describe the proposed changes or improvements.
+      placeholder: e.g., Add more detailed explanations for edge cases.
+      required: true
+
+  - type: input
+    attributes:
+      label: Additional context
+      description: Any additional context or details you think will be helpful.
+      placeholder: Optional
+      required: false
