@@ -1,7 +1,8 @@
 # Maximum Sum of Exponents Problem
 
-**Code: #rcpas1**
-**Difficulty: Medium**
+**Code: #rcpas1**  
+**Difficulty: Medium**  
+**Link: [https://github.com/mrasadatik/random-coding-problems-and-solutions/blob/main/problems/maximum-sum-of-exponents-%23rcpas1](https://github.com/mrasadatik/random-coding-problems-and-solutions/blob/main/problems/maximum-sum-of-exponents-%23rcpas1)**
 
 ## Table of Contents
 
