@@ -23,14 +23,14 @@ When you create a branch for your changes, follow this format:
 
 **Mandatory Sections:**
 
--   **Category (<category>)**: Specifies the type of change you're making (e.g., bug, documentation, enhancement).
--   **Short Description (<short-description>)**: A concise summary of the purpose of your branch.
+-   **Category (\<category\>)**: Specifies the type of change you're making (e.g., bug, documentation, enhancement).
+-   **Short Description (\<short-description\>)**: A concise summary of the purpose of your branch.
 
 **Optional Sections:**
 
--   **Problem (<problem>)**: The name of the associated problem (if applicable).
--   **Language (<language>)**: The programming language used for the solution.
--   **Ticket ID (<ticket-id>)**: If there’s a task or issue tracker ID, include it here.
+-   **Problem (\<problem\>)**: The name of the associated problem (if applicable).
+-   **Language (\<language\>)**: The programming language used for the solution.
+-   **Ticket ID (\<ticket-id\>)**: If there’s a task or issue tracker ID, include it here.
 
 ### Possible Categories:
 
