@@ -1,0 +1,35 @@
+name: "General Question"
+description: "Ask a general question or request clarification on a problem or solution."
+title: "question: <brief description>"
+labels: ["question"]
+
+assignees:
+  - "mrasadatik"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## General Question
+        If you have a question or need clarification, feel free to ask here.
+
+  - type: input
+    attributes:
+      label: What is your question?
+      description: Describe the question or clarification you're seeking.
+      placeholder: e.g., How do I approach solving this problem with recursion?
+      required: true
+
+  - type: input
+    attributes:
+      label: Which problem or solution is this question about?
+      description: Specify which problem or solution this question refers to.
+      placeholder: e.g., Problem 7: Sum of Two Numbers
+      required: true
+
+  - type: input
+    attributes:
+      label: Additional context
+      description: Any additional context that could help in answering your question.
+      placeholder: Optional
+      required: false

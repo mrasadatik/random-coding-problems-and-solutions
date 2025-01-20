@@ -1,0 +1,42 @@
+name: "Feature Request"
+description: "Suggest a new feature or enhancement for the project."
+title: "feature: <brief description>"
+labels: ["enhancement"]
+
+assignees:
+  - "mrasadatik"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        We welcome new suggestions! Please describe the feature you'd like to see added to the repository.
+
+  - type: input
+    attributes:
+      label: What feature would you like to request?
+      description: A clear and concise description of what you are requesting.
+      placeholder: e.g., Add a new problem on dynamic programming.
+      required: true
+
+  - type: input
+    attributes:
+      label: Why is this feature important?
+      description: Explain why this feature is needed and how it benefits the repository.
+      placeholder: e.g., This will help users practice advanced DP techniques.
+      required: true
+
+  - type: input
+    attributes:
+      label: How should the feature work?
+      description: Describe how the feature should function or behave.
+      placeholder: e.g., The problem should include multiple test cases and a clear problem statement.
+      required: true
+
+  - type: input
+    attributes:
+      label: Additional context
+      description: Any additional context or references you'd like to provide.
+      placeholder: Optional
+      required: false
