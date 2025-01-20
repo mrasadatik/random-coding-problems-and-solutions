@@ -18,18 +18,15 @@ body:
       label: Which part of the documentation needs improvement?
       description: Specify the file or section that needs attention.
       placeholder: e.g., README, solution explanation for Problem X
-      required: true
 
   - type: input
     attributes:
       label: What changes do you propose?
       description: Describe the proposed changes or improvements.
       placeholder: e.g., Add more detailed explanations for edge cases.
-      required: true
 
   - type: input
     attributes:
       label: Additional context
       description: Any additional context or details you think will be helpful.
       placeholder: Optional
-      required: false
