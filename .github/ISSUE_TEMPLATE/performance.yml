@@ -13,31 +13,31 @@ body:
         ## Performance Issue
         If a solution is inefficient or doesn't meet performance expectations, please report it here.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Which solution has the performance issue?
       description: Specify which solution you're referring to.
       placeholder: e.g., Solution for Problem X
 
-  - type: input
+  - type: textarea
     attributes:
       label: Describe the performance issue
       description: Explain the issue (e.g., slow runtime, high memory usage).
       placeholder: e.g., The solution takes too long on large inputs.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Expected performance
       description: What would the expected performance be?
       placeholder: e.g., The solution should run within O(n log n) time complexity.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Actual performance
       description: What is the observed performance?
       placeholder: e.g., The solution runs in O(n^2) time complexity.
 
-  - type: input
+  - type: textarea
     attributes:
       label: Suggested improvements (optional)
       description: If you have any suggestions to improve performance, please share.

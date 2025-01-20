@@ -13,19 +13,19 @@ body:
         ## General Question
         If you have a question or need clarification, feel free to ask here.
 
-  - type: input
+  - type: textarea
     attributes:
       label: What is your question?
       description: Describe the question or clarification you're seeking.
       placeholder: e.g., How do I approach solving this problem with recursion?
 
-  - type: input
+  - type: textarea
     attributes:
       label: Which problem or solution is this question about?
       description: Specify which problem or solution this question refers to.
       placeholder: e.g., Problem 7: Sum of Two Numbers
 
-  - type: input
+  - type: textarea
     attributes:
       label: Additional context
       description: Any additional context that could help in answering your question.
