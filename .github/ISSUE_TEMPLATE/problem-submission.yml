@@ -1,7 +1,7 @@
 name: "Problem Submission"
 description: "Submit a new coding problem to be added to the repository."
-title: "new problem: <brief description>"
-labels: ["new problem"]
+title: "new-problem: <brief description>"
+labels: ["new-problem"]
 
 assignees:
   - "mrasadatik"
