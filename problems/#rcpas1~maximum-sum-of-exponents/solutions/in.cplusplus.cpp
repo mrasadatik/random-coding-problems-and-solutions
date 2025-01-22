@@ -50,7 +50,7 @@ bool compareDescending(int a, int b);
 
 /*
 /**
- * @brief Sorts an array in descending order using Bubble Sort (optimized).
+ * @brief Sorts an array in descending order using Bubble Sort
  *
  * @param arr The array to be sorted.
  * @param n The number of elements in the array.
@@ -146,7 +146,7 @@ bool compareDescending(int a, int b) {
 
 /*
 /**
- * @brief Sorts an array in descending order using Bubble Sort (optimized).
+ * @brief Sorts an array in descending order using Bubble Sort
  *
  * @param arr The array to be sorted.
  * @param n The number of elements in the array.
