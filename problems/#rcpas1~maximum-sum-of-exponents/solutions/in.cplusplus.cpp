@@ -96,13 +96,13 @@ int main() {
     std::vector<int> B(n);
 
     // Read elements for array A
-    std::cout << "Enter elements of array A: ";
+    std::cout << "Enter elements of array A[n]: ";
     for (int i = 0; i < n; i++) {
         std::cin >> A[i];
     }
 
     // Read elements for array B
-    std::cout << "Enter elements of array B: ";
+    std::cout << "Enter elements of array B[n]: ";
     for (int i = 0; i < n; i++) {
         std::cin >> B[i];
     }
