@@ -5,44 +5,7 @@
  *        from the user, sorting them in descending order, and computing the sum of
  *        A[i] raised to the power of B[i].
  *
- * The program solves the following problem:
- * - Given two arrays A and B, the goal is to calculate the maximum sum of exponents,
- *   where the sum is defined as:
- *   $$\[
- *   \text{maxSum} = \sum_{i=0}^{n-1} A[i]^{B[i]}
- *   \]$$
- *   Shuffle is allowed for the elements of arrays A and B to achieve the maximum sum
- *
- * The program performs the following steps:
- * 1. Accepts user input for the number of elements, `n`.
- * 2. Reads two integer arrays `A` and `B` from the user.
- * 3. Sorts both arrays in descending order.
- * 4. Calculates the sum of exponents: A[i] raised to the power of B[i] for each pair of
- *    corresponding elements from arrays A and B.
- * 5. Outputs the maximum sum of exponents.
- *
- * Sorting Options:
- * - Quick Sort (default, using `qsort()`): O(n log n)
- * - Bubble Sort (commented out): O(n²) in the worst case
- * - Merge Sort (commented out): O(n log n)
- *
- * Memory Allocation Options:
- * - This version uses dynamic memory allocation with `malloc()` to allocate memory for the
- *   arrays `A` and `B` based on the user input for `n`. If `malloc()` fails, the program
- *   will terminate with an error message.
- * - Alternatively, you can use Variable-Length Arrays (VLA), but in this version, memory
- *   allocation with `malloc()` is preferred due to compatibility with C standards.
- *
- * Problem Title:
- * - Maximum Sum of Exponents
- *
- * Problem Code:
- * - #rcpas1
- *
- * @link https://github.com/mrasadatik/random-coding-problems-and-solutions/blob/main/problems/maximum-sum-of-exponents-%23rcpas1/solutions/in.c.c
- *
- * @note This program assumes that the user inputs valid integer arrays and does not perform
- *       input validation for array size or values.
+ * @link https://github.com/mrasadatik/random-coding-problems-and-solutions/tree/main/problems/%23rcpas1~maximum-sum-of-exponents
  *
  * @author Asaduzzaman Atik
  * @date January 20, 2025
@@ -82,6 +45,7 @@
   */
 int compareDescending(const void* a, const void* b);
 
+/*
 /**
  * @brief Sorts an array in descending order using Bubble Sort.
  *
@@ -111,7 +75,7 @@ int compareDescending(const void* a, const void* b);
 **/
 // void mergeSortDescending(int arr[], int left, int right);
 
-int main() {
+int main(void) {
     int n;
 
     // Read the number of elements
@@ -167,6 +131,10 @@ int main() {
 
     // Print the result
     printf("Maximum sum of exponents: %lld\n", maxSum);
+
+    // Free allocated memory
+    free(A);
+    free(B);
 
     return 0;
 }

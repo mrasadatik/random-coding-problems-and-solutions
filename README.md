@@ -30,7 +30,7 @@ This repository aims to:
 
 ## Problems solved so far
 
--   #rcps1 ~ [Maximum Sum of Exponents](problems/maximum-sum-of-exponents-%23rcpas1)
+-   #rcps1 ~ [Maximum Sum of Exponents](problems/%23rcpas1~maximum-sum-of-exponents)
 
 ## How to Use This Repository
 
