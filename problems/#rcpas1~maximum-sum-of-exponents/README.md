@@ -123,6 +123,7 @@ This problem has multiple solutions implemented in various programming languages
 #### Languages Available
 
 -   C (see [`in.c.c`](./solutions/in.c.c))
+-   C++ (see [`in.cplusplus.cpp`](./solutions/in.cplusplus.cpp))
 
 ## How to Contribute
 
