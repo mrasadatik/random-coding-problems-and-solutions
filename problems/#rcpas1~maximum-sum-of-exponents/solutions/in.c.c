@@ -99,13 +99,13 @@ int main(void) {
     */
 
     // Read elements for array A
-    printf("Enter elements of array A: ");
+    printf("Enter elements of array A[n]: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &A[i]);
     }
 
     // Read elements for array B
-    printf("Enter elements of array B: ");
+    printf("Enter elements of array B[n]: ");
     for (int i = 0; i < n; i++) {
         scanf("%d", &B[i]);
     }
